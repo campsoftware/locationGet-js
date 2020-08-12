@@ -1,18 +1,20 @@
 # locationGet-js
 
+**Summary**
+
 Retreives the GPS coordinates of the Browser.
 - Uses an inline callback.
 - Normalizes the output.
 - Makes the async call **feel** like a sync call, but it's still async.
 - This is a good template for similar async calls.
 
-Calling Example
+**Calling Example**
 
 ```javascript
 locationGet( function ( coords ) { alert( coords['ErrorCode'] + '|' + coords['Latitude'] ); } );
 ```
 
-Function
+**Function**
 
 ```javascript
 function locationGet( callbackFunction ) {
