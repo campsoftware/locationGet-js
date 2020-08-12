@@ -2,7 +2,7 @@
 
 ### Summary
 
-Retreives the GPS coordinates of the Browser.
+Retrieves the GPS coordinates of the Browser.
 - Uses an inline callback.
 - Normalizes the output.
 - Makes the async call **feel** like a sync call, but it's still async.
